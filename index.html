@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fruit Burst Website Landing Page Design</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font-lato{
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
-<body>
-    
+<body class="font-lato">
+    <header class="container mx-auto">
+        <nav class="navbar bg-[#F85559] py-7 px-10 mt-12 rounded-full ">
+            <div class="navbar-start">
+                <ul class="gap-6 menu-horizontal px-1 text-lg font-medium text-white">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">All Fruits</a></li>
+                  </ul>
+            </div>
+            <div class="navbar-center ">
+              <div class="flex items-center">
+                <img src="./images/logo.png" alt="">
+                <h1 class="text-white font-bold text-4xl ml-5">Fruit Burst</h1>
+              </div>
+            </div>
+            <div class="navbar-end relative">
+                <input type="text" placeholder="Type here" class="input input-bordered rounded-full w-full max-w-xs" />
+                <img class="absolute right-4" src="./images/Frame.png" alt="" >
+            </div>
+          </nav>
+    </header>
 </body>
 </html>
